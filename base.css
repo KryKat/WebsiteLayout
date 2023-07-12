@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  background: #c4c4c4;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ebebeb;
+}
+.container {
+  max-width: 1203px;
+  margin-inline: auto;
+  background: transparent;
+}
+.btn {
+  border-radius: 5px;
+  background: #423f3e;
+  font-family: Nunito Sans;
+  padding: 11px 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
